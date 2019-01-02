@@ -7,6 +7,10 @@
     - A counter records the number of successful clicks
     - The counter is reset if an image is clicked twice
 
+- Application initiation for development   
+    - Open Bash and navigate to application folder
+    - Type "yarn start" and hit enter
+
 - Key or new skills
     - React
     

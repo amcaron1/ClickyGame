@@ -1,7 +1,15 @@
 .title {
   width: 100%;
+  font-family: "Comic Sans MS";
   text-align: center;
   text-decoration: underline;
   color: #2A77AE;
   margin-bottom: 10px;
+}
+
+.subtitle {
+  width: 100%;
+  text-align: center;
+  color: #2A77AE;
+  margin-bottom: 20px;
 }
