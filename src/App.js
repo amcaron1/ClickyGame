@@ -3,18 +3,18 @@ import FriendCard from "./components/FriendCard";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
 import Counter from "./components/Counter";
-import friends from "./friends.json";
+import originalFriends from "./friends.json";
 
 class App extends Component {
   // Setting this.state.friends to the friends json array
   // and this.state.count to zero
   state = {
-    friends,
+    friends: originalFriends,
     count: 0
   };
 
   jumbleFriends = id => {
-    let friendsCopy = [...friends];
+    let friendsCopy = this.state.friends;
 
     // If this friend has been previously clicked, restart the game
     if (friendsCopy[id].clicked) {
